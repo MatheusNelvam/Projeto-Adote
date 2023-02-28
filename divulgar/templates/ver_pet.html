@@ -32,6 +32,11 @@
                             <span class="span-bold">Nome:</span>
                             <p>{{pet.nome}}</p>
                             <div style="width:40%">
+                                {% for tag in pet.tags.all %}
+                            
+                                <span class="badge text-bg-info badge-lg">{{tag}}</span>
+
+                                {% endfor %}
 
                             </div>
                         </div>
