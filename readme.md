@@ -38,7 +38,7 @@ python manage.py runserver                              //Iniciar o servidor
 - Python (Django)
 - HTML5/CSS3
 - Bootstrap
-- DbSQlite
+- dbSQLite
 
 ---
 
